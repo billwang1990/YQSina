@@ -7,12 +7,29 @@
 //
 
 #import "YQAppDelegate.h"
+#import "YQVdiskSession.h"
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+
+@interface YQAppDelegate()<VdiskSessionDelegate>
+
+
+@end
 
 @implementation YQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    YQVdiskSession *session = [[YQVdiskSession alloc]initWithAppKey:kVdiskSDKDemoAppKey appSecret:kVdiskSDKDemoAppSecret appRoot:@"basic"];
+    session.delegate = self;
+    [session setRedirectURL:kVdiskSDKDemoAppRedirectURI];
+    
+    [YQVdiskSession setSharedSession:session];
+    
+    if ([session isLinked]) {
+        //login successed
+        
+    }
+    
     return YES;
 }
 							
@@ -42,5 +59,19 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark -
+#pragma mark VdiskSessionDelegate methods
+
+- (void)sessionAlreadyLinked:(YQVdiskSession *)session {
+    
+    NSLog(@"sessionAlreadyLinked");
+}
+
+
+-(void)sessionLinkedSuccess:(YQVdiskSession *)session{
+    //success
+}
+
 
 @end

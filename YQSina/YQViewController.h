@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface YQViewController : UIViewController
+- (IBAction)LoginBtn:(id)sender;
 
 @end

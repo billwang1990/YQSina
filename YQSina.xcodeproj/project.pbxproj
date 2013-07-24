@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D1A1B6175CB88A00E20A60 /* VdiskError.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1A1B5175CB88A00E20A60 /* VdiskError.m */; };
+		23D1A1BA175CBC8800E20A60 /* VdiskBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D1A1B8175CBC8800E20A60 /* VdiskBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23DABC53175EC5F50002D45A /* YQRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DABC52175EC5F50002D45A /* YQRestClient.m */; };
+		23DABC57175EC8270002D45A /* AccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DABC56175EC8270002D45A /* AccountInfo.m */; };
+		23DABC7D175F43FD0002D45A /* VDiskClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DABC7C175F43FD0002D45A /* VDiskClient.m */; };
+		23DABCD9175F60DB0002D45A /* VdiskQuota.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DABCD8175F60DA0002D45A /* VdiskQuota.m */; };
 		23E1F8D0175B1B7900E19C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E1F8CF175B1B7900E19C6B /* UIKit.framework */; };
 		23E1F8D2175B1B7900E19C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E1F8D1175B1B7900E19C6B /* Foundation.framework */; };
 		23E1F8D4175B1B7900E19C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E1F8D3175B1B7900E19C6B /* CoreGraphics.framework */; };
@@ -18,9 +24,33 @@
 		23E1F8E6175B1B7900E19C6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F8E5175B1B7900E19C6B /* Default-568h@2x.png */; };
 		23E1F8E9175B1B7900E19C6B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F8E7175B1B7900E19C6B /* MainStoryboard.storyboard */; };
 		23E1F8EC175B1B7900E19C6B /* YQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F8EB175B1B7900E19C6B /* YQViewController.m */; };
+		23E1F8F4175B1B9F00E19C6B /* 32x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F8F3175B1B9F00E19C6B /* 32x160.png */; };
+		23E1F8F8175B1DE200E19C6B /* YQVdiskSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F8F7175B1DE200E19C6B /* YQVdiskSession.m */; };
+		23E1F8FD175B242D00E19C6B /* YQKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F8FC175B242D00E19C6B /* YQKeyChain.m */; };
+		23E1F8FF175B3F1900E19C6B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E1F8FE175B3F1800E19C6B /* Security.framework */; };
+		23E1F902175B462400E19C6B /* VdiskAuthorize.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F901175B462400E19C6B /* VdiskAuthorize.m */; };
+		23E1F905175B49A500E19C6B /* VdiskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F904175B49A400E19C6B /* VdiskRequest.m */; };
+		23E1F908175B663800E19C6B /* VdiskUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F907175B663800E19C6B /* VdiskUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23E1F90B175B67B400E19C6B /* VdiskAuthorizeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F90A175B67B400E19C6B /* VdiskAuthorizeWebView.m */; };
+		23E1F90E175B68B500E19C6B /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F90C175B68B500E19C6B /* close.png */; };
+		23E1F90F175B68B500E19C6B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E1F90D175B68B500E19C6B /* close@2x.png */; };
+		42E576F88482437482C62618 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 612EA72F5E2840BAB8A1219C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23D1A1B4175CB88A00E20A60 /* VdiskError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskError.h; sourceTree = "<group>"; };
+		23D1A1B5175CB88A00E20A60 /* VdiskError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VdiskError.m; sourceTree = "<group>"; };
+		23D1A1B7175CBC8800E20A60 /* VdiskBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskBase64.h; sourceTree = "<group>"; };
+		23D1A1B8175CBC8800E20A60 /* VdiskBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VdiskBase64.m; sourceTree = "<group>"; };
+		23D1A1B9175CBC8800E20A60 /* VdiskBase64Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskBase64Defines.h; sourceTree = "<group>"; };
+		23DABC51175EC5F50002D45A /* YQRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQRestClient.h; path = Vdisk/YQRestClient.h; sourceTree = "<group>"; };
+		23DABC52175EC5F50002D45A /* YQRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQRestClient.m; path = Vdisk/YQRestClient.m; sourceTree = "<group>"; };
+		23DABC55175EC8270002D45A /* AccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountInfo.h; path = Vdisk/Model/AccountInfo.h; sourceTree = "<group>"; };
+		23DABC56175EC8270002D45A /* AccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountInfo.m; path = Vdisk/Model/AccountInfo.m; sourceTree = "<group>"; };
+		23DABC7B175F43FD0002D45A /* VDiskClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDiskClient.h; path = Vdisk/VDiskClient.h; sourceTree = "<group>"; };
+		23DABC7C175F43FD0002D45A /* VDiskClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDiskClient.m; path = Vdisk/VDiskClient.m; sourceTree = "<group>"; };
+		23DABCD7175F60DA0002D45A /* VdiskQuota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskQuota.h; sourceTree = "<group>"; };
+		23DABCD8175F60DA0002D45A /* VdiskQuota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VdiskQuota.m; sourceTree = "<group>"; };
 		23E1F8CC175B1B7900E19C6B /* YQSina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQSina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E1F8CF175B1B7900E19C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		23E1F8D1175B1B7900E19C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +67,25 @@
 		23E1F8E8175B1B7900E19C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		23E1F8EA175B1B7900E19C6B /* YQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQViewController.h; sourceTree = "<group>"; };
 		23E1F8EB175B1B7900E19C6B /* YQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQViewController.m; sourceTree = "<group>"; };
+		23E1F8F3175B1B9F00E19C6B /* 32x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32x160.png; sourceTree = "<group>"; };
+		23E1F8F6175B1DE200E19C6B /* YQVdiskSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQVdiskSession.h; path = Vdisk/YQVdiskSession.h; sourceTree = "<group>"; };
+		23E1F8F7175B1DE200E19C6B /* YQVdiskSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQVdiskSession.m; path = Vdisk/YQVdiskSession.m; sourceTree = "<group>"; };
+		23E1F8F9175B212B00E19C6B /* VidisGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidisGlobal.h; sourceTree = "<group>"; };
+		23E1F8FB175B242D00E19C6B /* YQKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQKeyChain.h; path = Vdisk/YQKeyChain.h; sourceTree = "<group>"; };
+		23E1F8FC175B242D00E19C6B /* YQKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQKeyChain.m; path = Vdisk/YQKeyChain.m; sourceTree = "<group>"; };
+		23E1F8FE175B3F1800E19C6B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		23E1F900175B462400E19C6B /* VdiskAuthorize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VdiskAuthorize.h; path = Vdisk/VdiskAuthorize.h; sourceTree = "<group>"; };
+		23E1F901175B462400E19C6B /* VdiskAuthorize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VdiskAuthorize.m; path = Vdisk/VdiskAuthorize.m; sourceTree = "<group>"; };
+		23E1F903175B49A400E19C6B /* VdiskRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VdiskRequest.h; path = Vdisk/VdiskRequest.h; sourceTree = "<group>"; };
+		23E1F904175B49A400E19C6B /* VdiskRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VdiskRequest.m; path = Vdisk/VdiskRequest.m; sourceTree = "<group>"; };
+		23E1F906175B663800E19C6B /* VdiskUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VdiskUtil.h; sourceTree = "<group>"; };
+		23E1F907175B663800E19C6B /* VdiskUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VdiskUtil.m; sourceTree = "<group>"; };
+		23E1F909175B67B400E19C6B /* VdiskAuthorizeWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VdiskAuthorizeWebView.h; path = Vdisk/VdiskAuthorizeWebView.h; sourceTree = "<group>"; };
+		23E1F90A175B67B400E19C6B /* VdiskAuthorizeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VdiskAuthorizeWebView.m; path = Vdisk/VdiskAuthorizeWebView.m; sourceTree = "<group>"; };
+		23E1F90C175B68B500E19C6B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		23E1F90D175B68B500E19C6B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		612EA72F5E2840BAB8A1219C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C7BF5353BA477E86B03306 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,21 +93,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E1F8FF175B3F1900E19C6B /* Security.framework in Frameworks */,
 				23E1F8D0175B1B7900E19C6B /* UIKit.framework in Frameworks */,
 				23E1F8D2175B1B7900E19C6B /* Foundation.framework in Frameworks */,
 				23E1F8D4175B1B7900E19C6B /* CoreGraphics.framework in Frameworks */,
+				42E576F88482437482C62618 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23DABC54175EC7D80002D45A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23DABC55175EC8270002D45A /* AccountInfo.h */,
+				23DABC56175EC8270002D45A /* AccountInfo.m */,
+				23DABCD7175F60DA0002D45A /* VdiskQuota.h */,
+				23DABCD8175F60DA0002D45A /* VdiskQuota.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		23E1F8C3175B1B7900E19C6B = {
 			isa = PBXGroup;
 			children = (
 				23E1F8D5175B1B7900E19C6B /* YQSina */,
 				23E1F8CE175B1B7900E19C6B /* Frameworks */,
 				23E1F8CD175B1B7900E19C6B /* Products */,
+				C9C7BF5353BA477E86B03306 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,9 +136,11 @@
 		23E1F8CE175B1B7900E19C6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23E1F8FE175B3F1800E19C6B /* Security.framework */,
 				23E1F8CF175B1B7900E19C6B /* UIKit.framework */,
 				23E1F8D1175B1B7900E19C6B /* Foundation.framework */,
 				23E1F8D3175B1B7900E19C6B /* CoreGraphics.framework */,
+				612EA72F5E2840BAB8A1219C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +148,7 @@
 		23E1F8D5175B1B7900E19C6B /* YQSina */ = {
 			isa = PBXGroup;
 			children = (
+				23E1F8F5175B1C3000E19C6B /* VDisk */,
 				23E1F8DE175B1B7900E19C6B /* YQAppDelegate.h */,
 				23E1F8DF175B1B7900E19C6B /* YQAppDelegate.m */,
 				23E1F8E7175B1B7900E19C6B /* MainStoryboard.storyboard */,
@@ -96,6 +162,7 @@
 		23E1F8D6175B1B7900E19C6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23E1F8F2175B1B9700E19C6B /* Image */,
 				23E1F8D7175B1B7900E19C6B /* YQSina-Info.plist */,
 				23E1F8D8175B1B7900E19C6B /* InfoPlist.strings */,
 				23E1F8DB175B1B7900E19C6B /* main.m */,
@@ -107,6 +174,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		23E1F8F2175B1B9700E19C6B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				23E1F8F3175B1B9F00E19C6B /* 32x160.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		23E1F8F5175B1C3000E19C6B /* VDisk */ = {
+			isa = PBXGroup;
+			children = (
+				23DABC54175EC7D80002D45A /* Model */,
+				23D1A1B7175CBC8800E20A60 /* VdiskBase64.h */,
+				23D1A1B8175CBC8800E20A60 /* VdiskBase64.m */,
+				23D1A1B9175CBC8800E20A60 /* VdiskBase64Defines.h */,
+				23E1F8F6175B1DE200E19C6B /* YQVdiskSession.h */,
+				23E1F8F7175B1DE200E19C6B /* YQVdiskSession.m */,
+				23E1F8F9175B212B00E19C6B /* VidisGlobal.h */,
+				23E1F8FB175B242D00E19C6B /* YQKeyChain.h */,
+				23E1F8FC175B242D00E19C6B /* YQKeyChain.m */,
+				23E1F900175B462400E19C6B /* VdiskAuthorize.h */,
+				23E1F901175B462400E19C6B /* VdiskAuthorize.m */,
+				23E1F903175B49A400E19C6B /* VdiskRequest.h */,
+				23E1F904175B49A400E19C6B /* VdiskRequest.m */,
+				23E1F906175B663800E19C6B /* VdiskUtil.h */,
+				23E1F907175B663800E19C6B /* VdiskUtil.m */,
+				23D1A1B4175CB88A00E20A60 /* VdiskError.h */,
+				23D1A1B5175CB88A00E20A60 /* VdiskError.m */,
+				23E1F909175B67B400E19C6B /* VdiskAuthorizeWebView.h */,
+				23E1F90A175B67B400E19C6B /* VdiskAuthorizeWebView.m */,
+				23DABC51175EC5F50002D45A /* YQRestClient.h */,
+				23DABC52175EC5F50002D45A /* YQRestClient.m */,
+				23DABC7B175F43FD0002D45A /* VDiskClient.h */,
+				23DABC7C175F43FD0002D45A /* VDiskClient.m */,
+				23E1F90C175B68B500E19C6B /* close.png */,
+				23E1F90D175B68B500E19C6B /* close@2x.png */,
+			);
+			name = VDisk;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E1F8EF175B1B7900E19C6B /* Build configuration list for PBXNativeTarget "YQSina" */;
 			buildPhases = (
+				5782C9D038CB46178DAE0A43 /* Check Pods Manifest.lock */,
 				23E1F8C8175B1B7900E19C6B /* Sources */,
 				23E1F8C9175B1B7900E19C6B /* Frameworks */,
 				23E1F8CA175B1B7900E19C6B /* Resources */,
+				96ECD0171F14412BBD6B9744 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,10 +273,44 @@
 				23E1F8E4175B1B7900E19C6B /* Default@2x.png in Resources */,
 				23E1F8E6175B1B7900E19C6B /* Default-568h@2x.png in Resources */,
 				23E1F8E9175B1B7900E19C6B /* MainStoryboard.storyboard in Resources */,
+				23E1F8F4175B1B9F00E19C6B /* 32x160.png in Resources */,
+				23E1F90E175B68B500E19C6B /* close.png in Resources */,
+				23E1F90F175B68B500E19C6B /* close@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5782C9D038CB46178DAE0A43 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		96ECD0171F14412BBD6B9744 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23E1F8C8175B1B7900E19C6B /* Sources */ = {
@@ -177,6 +320,18 @@
 				23E1F8DC175B1B7900E19C6B /* main.m in Sources */,
 				23E1F8E0175B1B7900E19C6B /* YQAppDelegate.m in Sources */,
 				23E1F8EC175B1B7900E19C6B /* YQViewController.m in Sources */,
+				23E1F8F8175B1DE200E19C6B /* YQVdiskSession.m in Sources */,
+				23E1F8FD175B242D00E19C6B /* YQKeyChain.m in Sources */,
+				23E1F902175B462400E19C6B /* VdiskAuthorize.m in Sources */,
+				23E1F905175B49A500E19C6B /* VdiskRequest.m in Sources */,
+				23E1F908175B663800E19C6B /* VdiskUtil.m in Sources */,
+				23E1F90B175B67B400E19C6B /* VdiskAuthorizeWebView.m in Sources */,
+				23D1A1B6175CB88A00E20A60 /* VdiskError.m in Sources */,
+				23D1A1BA175CBC8800E20A60 /* VdiskBase64.m in Sources */,
+				23DABC53175EC5F50002D45A /* YQRestClient.m in Sources */,
+				23DABC57175EC8270002D45A /* AccountInfo.m in Sources */,
+				23DABC7D175F43FD0002D45A /* VDiskClient.m in Sources */,
+				23DABCD9175F60DB0002D45A /* VdiskQuota.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +415,7 @@
 		};
 		23E1F8F0175B1B7900E19C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C7BF5353BA477E86B03306 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQSina/YQSina-Prefix.pch";
@@ -271,6 +427,7 @@
 		};
 		23E1F8F1175B1B7900E19C6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C7BF5353BA477E86B03306 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQSina/YQSina-Prefix.pch";
@@ -299,6 +456,7 @@
 				23E1F8F1175B1B7900E19C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

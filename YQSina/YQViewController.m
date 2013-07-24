@@ -7,6 +7,7 @@
 //
 
 #import "YQViewController.h"
+#import "YQVdiskSession.h"
 
 @interface YQViewController ()
 
@@ -26,4 +27,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)LoginBtn:(id)sender {
+    
+    [[YQVdiskSession sharedSession] linkWithSessionType:kVdiskSessionTypeDefault];
+    
+}
 @end
